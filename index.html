@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>گالری ماشین</title>
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <section class="section s1">
+            <h1>section 1</h1>
+        </section>
+        <section class="section s2">
+            <h1>section 2</h1>
+        </section>
+        <section class="section s3">
+            <h1>section 3</h1>
+        </section>
+        <section class="section s4">
+            <h1>section 4</h1>
+        </section>
+        <section class="section s5">
+            <h1>section 5</h1>
+        </section>
+    </div>
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+            navigationTooltips: ['صفحه نخست', 'خدمات ما', 'محصولات ما', 'تماس با ما', 'درباره ما'],
+            showActiveTooltip: true
+        });
+    </script>
+</body>
+
+</html>
