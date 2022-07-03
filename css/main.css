@@ -19,6 +19,7 @@ body {
 .s1 {
     background: url("../images/1.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .s1 ul {
@@ -93,6 +94,7 @@ body {
 .s2 {
     background: url("../images/2.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .s2 .sectionTwo {
@@ -157,6 +159,7 @@ body {
 .s3 {
     background: url("../images/3.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .s3 .sectionThree {
@@ -231,6 +234,7 @@ body {
 .s4 {
     background: url("../images/4.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .s4 .sectionFour {
