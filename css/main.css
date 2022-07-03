@@ -5,6 +5,7 @@
 
 body {
     font-family: "vazir";
+    overflow-x: hidden;
 }
 
 * {
